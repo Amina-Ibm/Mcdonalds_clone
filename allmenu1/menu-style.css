@@ -1,0 +1,29 @@
+.list-group img{
+    height: 70px;
+}
+.list-group{
+    margin: 0 40px;
+}
+.list-group-item{
+    border-left: 5px solid transparent !important;
+}
+.menu-content{
+    padding-top: 10%;
+}
+.list-group-item.active,
+.list-group-item:focus {
+    background-color: transparent !important;
+  border-left-color: red !important; 
+  font-weight: bold;
+  color: #000 !important; 
+}
+ /* Cards */
+
+ .card img{
+    height: 200px;
+    object-fit:cover;
+ }
+ .card-section{
+    justify-content: space-between;
+ }
+ 

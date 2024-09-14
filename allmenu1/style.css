@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    width: 90%;
+    margin: auto;
+}
+
+.section-1-A-cont{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-section-1-A{
+}
+.dish-section-1-B{
+    font-size: 20px;
+}
+.section-1-B{
+}
+.heading{
+    font-weight: 900;
+    font-size: 48px;
+}
+.breakfast{
+    font-size: 28px;
+    font-weight: 700;
+}
+.section-2{
+    width: 90%;
+    margin: auto;
+}
+.section-2-cont{
+    height: 250px;
+    /* background-color: burlywood; */
+}
+.chicken{
+    font-size: 28px;
+    font-weight: 700;
+}
+.dish-section-2{
+    font-size: 20px;
+}
+.section-3{
+    width: 90%;
+    margin: auto;
+}
+.section-4{
+    width: 90%;
+    margin: auto;
+}
+
+.f-card-1{
+    display: flex;
+    padding: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.f-card-2{
+    display: flex;
+}
+.f-main{
+    padding: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.f-card-img{
+    width: 30%;
+    height: 100px;
+}
+.f-card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.f-card-text{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
