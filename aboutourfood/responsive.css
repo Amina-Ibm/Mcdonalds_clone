@@ -1,0 +1,27 @@
+@media screen and (max-width:992px) {
+    .cm-sec3-card {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:787px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .aof-card{
+        width: 48%;
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    h1{
+        font-size: 2rem;
+    }
+    .aof-card{
+        width: 100%;
+    }
+    #aof-section-1 {
+        background-position: center;
+    }
+}

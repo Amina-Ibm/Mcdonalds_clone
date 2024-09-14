@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c-section-1{
+    display: flex;
+}
+.c-left{
+    width: 40%;
+    height: 100vh;
+    position:sticky;
+    inset: 0;
+}
+.c-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.c-right{
+    width: 60%;
+}
+.c-contact-section{
+    width: 80%;
+    margin: 10% auto 5%;
+}
+.c-input-feild{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #00000028;
+    padding: 10px;
+}
+.c-input-feild input{
+    width: 70%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.c-input-feild button{
+    width: 24%;
+    background-color: #FFB600;
+    color: #000;
+    border: none;
+    padding: 5px;
+}
+.c-radio-btns{
+    margin: 2% 0;
+}
+
+.c-content{
+    text-align: center;
+    margin: 40px 0;
+}
+.c-content h3{
+    color: #DB0007;
+    font-weight: bold;
+}
+.c-right h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.c-right-cards {
+    justify-content: center;
+    gap: 10px;
+    margin-right:0;
+    margin-left: 0;
+}
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.c-right-card{
+    position: relative;
+    min-height: 380px;
+    width: 48%;
+}
+.card-1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 180px;
+    z-index: 99;
+}
+.c-layer{
+    background-color: #ffffff48;
+    position: absolute;
+    inset: 0;
+    content: "";
+}
+.card h3{
+    color:#DB0007;
+    font-weight: bold;
+}
+.card-body p{
+    margin: 0%;
+}
+
+.c-section-card-1{
+    display: flex;
+    width: 90%;
+    margin: 10% auto;
+}
+.c-section-card-1-left{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-section-card-1-left img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.c-section-card-1-right{
+    width: 70%;
+    padding: 2%;
+}
+.c-section-card-1-right h5{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.c-last-card{
+    width: 90%;
+    margin: 3% auto;
+}
+.card-2{
+    padding: 4%;
+}
+.card-2 p{
+    margin: 3% 0;
+}
+.card-2 div>a{
+    border: none;
+}
+
+@media screen and (max-width:576px) {
+    .c-right h1{
+        font-size: 2rem;
+    }
+    .c-right-cards{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .c-right-card{
+        width: 100%;
+    }
+    .c-section-card-1{
+       flex-direction: column;
+    }
+    .c-section-card-1-left{
+        width: 100%;
+    }
+   .c-section{
+    flex-direction: column;
+   }
+    .c-section-card-1-right{
+        width: 100%;
+    }
+}

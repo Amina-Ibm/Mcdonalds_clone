@@ -1,0 +1,22 @@
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width:787px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .family-section-card {
+        width: 48%;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .family-section-card {
+        width: 100%;
+    }
+}

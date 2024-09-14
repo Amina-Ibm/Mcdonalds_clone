@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: #DB0007;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.c-section-1{
+    background-image: url('./images/Contact-Us.png');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c-section-2{
+    display: flex;
+    margin: 10% 0;
+    justify-content: space-between;
+}
+.c-sec2-card{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.c-sec2-card img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+.card-body{
+    padding: 0 30px;
+}

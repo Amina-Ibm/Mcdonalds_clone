@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color:#DB0007;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 2% 0 5%;
+}
+.family-section-1{
+    background-image: url('./images/family-hero-banner-desktop-1168x520-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.family-section-card a{
+    padding: 1% 3%;
+    background-color:#ffbc0d;
+}
+.family-section-card h3{
+    color:#DB0007;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.card-section-flex{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    justify-content: space-between;
+}
+
+.family-section-card{
+    width: 48%;
+    text-align: center;
+    margin-top: 4%;
+}

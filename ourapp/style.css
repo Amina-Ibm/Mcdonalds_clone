@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color:#DB0007;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 2% 0 5%;
+}
+.app-section-1{
+    background-image: url('./images/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.download{
+    display: flex;
+    /* justify-content: end; */
+    gap: 20px;
+}
+
+.appstore {
+    display: flex;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.playstore {
+    display: flex;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.appstore-icon i,
+.playstore-icon i {
+    font-size: 1.3rem;
+}
+
+.appstore-icon,
+.playstore-icon {
+    display: flex;
+    align-items: center;
+}
+
+.appstore-icon i {
+    font-size: 1.5rem;
+}
+
+.appstore-context span {
+    font-size: 0.90rem;
+}
+
+.appstore-context p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.app-section-2{
+    display: flex;
+    margin: 7% 0;
+}
+.app-s2-left{
+    width: 35%;
+    background-image: url("./images/1.png");
+    background-size: cover;
+    height: 350px;
+}
+.app-s2-right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.app-s2-right h2{
+    font-weight: bold;
+    color: #DB0007;
+}
+.app-section-3{
+    display: flex;
+    margin: 7% 0;
+}
+.app-s3-left{
+    width: 40%;
+    height: 350px;
+}
+.app-s3-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.app-s3-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.app-section-4-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.app-section-4-card{
+    width: 48%;
+}
+.card-body p{
+    margin: 3% 0 5%;
+}
